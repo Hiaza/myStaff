@@ -1,0 +1,20 @@
+{{^err}}{{#isSearch}} <p >Found: {{numOfRes}} results </p> {{/isSearch}} {{/err}}
+<br/>
+    {{^err}}<table align="center" id="table_users">
+
+      <tr>
+        <th>Login</th>
+        <th>Full name</th>
+        <th>Registered</th>
+      </tr>
+      
+      {{#all_items}}
+         <tr>
+              <td><a href="/users/{{_id}}">{{login}}</a></td>
+              <td><a href="/users/{{_id}}">{{fullname}}</a></td>
+              <td> <time>{{registeredAt}}</time> </td>
+         </tr>
+      {{/all_items}}
+
+    </table>{{/err}}
+    <h1>{{err}}</h1>

@@ -1,0 +1,1 @@
+[ТЗ Труш](https://docs.google.com/document/d/1sF66axZOjDvopPaHCUNX2XzirW7Amdx-8F2NI1Ny-kM/edit#)

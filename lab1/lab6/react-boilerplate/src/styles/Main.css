@@ -1,0 +1,84 @@
+h1 {
+    color: #660A48;
+    text-align: center;
+}
+
+h5,p {
+    color: #360024;
+    text-align: center;
+}
+
+.big-block{
+    display:flex;  
+    flex-direction: row; 
+    justify-content: flex-end;
+}
+
+.bigest-block{
+    display:flex;  
+    flex-direction: row; 
+    justify-content: space-around;
+}
+
+.block{
+    background-color: white !important
+}
+
+.days{
+    align-items: center;
+    text-align: center;
+}
+
+.to-right{
+    align-items: right;
+    text-align: right;
+}
+
+.temp{
+    text-align: right;
+    color: white; 
+    border: 2px solid black;
+    background-color: #960367; 
+}
+
+.temp :link {
+    color: MediumSeaGreen;
+    background-color: transparent;
+    text-decoration: none;
+}
+.temp :visited {
+    color: MediumSeaGreen;
+    background-color: transparent;
+    text-decoration: none;
+}
+.temp :hover {
+    color: MediumSeaGreen;
+    background-color: transparent;
+    text-decoration: underline;
+}
+.temp :active {
+    color: #55A655;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.loader:empty {
+    position: absolute;
+    top: calc(50% - 4em);
+    left: calc(50% - 4em);
+    width: 6em;
+    height: 6em;
+    border: 1.1em solid rgba(0, 0, 0, 0.2);
+    border-left: 1.1em solid #000000;
+    border-radius: 50%;
+    animation: load8 1.1s infinite linear;
+  }
+  
+  @keyframes load8 {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }

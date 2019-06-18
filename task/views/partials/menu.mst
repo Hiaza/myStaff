@@ -1,0 +1,6 @@
+<div class="menu">
+    {{#user}}{{#admin}}<a href="/users"> Users</a>{{/admin}}{{/user}}
+    {{#user}}<a href="/questions"> Questions</a>{{/user}}
+    {{#user}}<a href="/tests"> Tests</a>{{/user}}
+    <a href=""> Help</a>
+</div>

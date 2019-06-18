@@ -1,0 +1,30 @@
+<div class="top_menu">
+
+    <div class="left_top">
+      <ul>
+        <li><a href="/" style="border-radius:0px 0px 0px 10px;">Home</a></li>
+        <li><a href="/developer/v1">Api</a></li>
+        <li><a href="https://www.google.com/search?q=mango&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiF8eCLyqfeAhUUiKYKHVWLAE8Q_AUIDigB&biw=1855&bih=982">Contact</a></li>
+        <!--#contact-->
+        <li><a href="/about">About</a></li>
+      </ul>
+    </div>
+
+    <div class="center_top">
+      <h1 id="header"> MANGO </h1>
+    </div>
+
+    <div class="right_top">
+      <ul>
+        <li><a href="/users/{{user._id}}" id="mango_im"><img src = "../images/decaf_mango.jpg" width=30px height=30px></a></li>
+        
+{{^user}}   <li><a href="/auth/register">Sign in</a></li>                                      {{/user}}
+{{^user}}   <li><a href="/auth/login" style="border-radius:0px 0px 10px 0px;">Log in</a></li>  {{/user}}
+{{#user}} <li><a href="/users/{{user._id}}">{{user.fullname}}</a></li>{{/user}}      
+{{#user}} <li><a href="/auth/logout" style="border-radius:0px 0px 10px 0px;">Log out</a></li>{{/user}}      
+      </ul>
+    </div>
+
+    <div style="clear:both;"></div>
+
+  </div>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Task2</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body onload="addRow();addRow();addRow()">
+
+<div class="container">         
+  <table class="table table-striped" id = "main-table">
+    <thead>
+      <tr>
+        <th></th>
+        <th>Група</th>
+        <th>Кількість студентів</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+      <input type="text" hidden id = "counter" value="1"></p>
+    </tbody>
+  </table>
+
+  <button type="button" class = "btn btn-primary btn-large" onclick="addRow()">Додати</button> 
+  <script src="task2.js"></script> 
+
+  <h2>Діаграма:</h2>
+  <div id = "diagram"style = "min-width:600px; min-height:400px; display: flex; align-items:flex-end; justify-content: space-evenly">
+    
+    
+  </div>
+
+
+</div>
+
+
+
+</body>
+</html>
