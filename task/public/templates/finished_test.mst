@@ -1,7 +1,0 @@
-<h1> Test passed </h1>
-
-<p> Your score: {{mark}}/{{maxMark}}</p>
-
-<p> Congradulations <p>
-
-<a href="{{authorLink}}"> Author:{{authorName}}<p>

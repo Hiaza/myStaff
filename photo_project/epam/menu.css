@@ -1,0 +1,88 @@
+nav ul,
+nav ul li {
+    margin: 0;
+    padding: 0;
+}
+nav ul {
+  list-style-type: none;
+}
+
+.menu-hover {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    background: #000000;
+    width: 100%;
+}
+.menu-hover li {
+  display: inline-block;
+}
+
+
+.menu-hover div:first-child {
+    width: 50%;
+}
+
+.menu-hover div:last-child {
+    width: 50%;
+}
+
+.left-menu-part {
+    display: flex;
+    justify-content: flex-start
+}
+
+.right-menu-part{
+    display: flex;
+    justify-content: flex-end
+}
+
+div.right-menu-part > ul > li{
+  border-left: 1px solid #FFFFFF;
+  width: 75px;
+}
+
+.menu-hover li a {
+  display: block;
+  padding: 10px;
+  color: #FCFCFC;
+  text-decoration: none;
+  border-right: 1px solid #FFFFFF;
+}
+.menu-hover li a:hover {
+  background-color: #0099FF;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    z-index: 10;
+    width: 75px;
+    top: 37px;
+    text-align: center;
+    right: 0;
+    background-color: white;
+}
+.submenu > li {
+    display: block;
+}
+.submenu > li > a {
+    display: block;
+    padding: 10px;
+    color: white;
+    background-color: #000000;
+    text-decoration: none;
+}
+div.right-menu-part > ul > li:hover > ul.submenu {
+    display: block;
+}
+footer{
+    bottom: 0;
+    position: fixed;
+    left: 0;
+    width: 100%; 
+    text-align: right;
+    padding: 10px;
+    background-color:black;
+    color: white;
+}

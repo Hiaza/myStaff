@@ -1,9 +1,0 @@
-<h3>Question: {{question}}</h3>
-      <img src = "{{picUrl}}" alt = "{{question}}" height = 300px width = 600px/>
-        <form id = "test" >
-          <p><input type="radio" id = "test" value="{{answer1}}" name = "test" />{{answer1}}</p>
-          <p><input type="radio" id = "test" value="{{answer2}}" name = "test" />{{answer2}}</p>
-          <p><input type="radio" id = "test" value="{{answer3}}" name = "test" />{{answer3}}</p>
-          <p><input type="radio" id = "test" value="{{answer4}}" name = "test" />{{answer4}}</p>
-        </form>
-          

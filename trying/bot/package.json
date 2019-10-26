@@ -1,0 +1,14 @@
+{
+  "name": "bot",
+  "version": "1.0.0",
+  "description": "my trying to create telegram bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Hiaza",
+  "license": "ISC",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.30.0"
+  }
+}
